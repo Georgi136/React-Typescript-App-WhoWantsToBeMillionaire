@@ -1,0 +1,13 @@
+.option-dropdown {
+  width: 30vw;
+}
+
+.options-container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 42px;
+}
+
+.continue-btn-container {
+  text-align: center;
+}

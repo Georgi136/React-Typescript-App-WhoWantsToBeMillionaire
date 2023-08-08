@@ -1,0 +1,122 @@
+.play-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    color:white;
+}
+.main{
+    height: 30%;
+}
+.dashboard{
+    height: 70%;
+}
+.dashboard{
+    display:flex;
+
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.prizes-list{
+    display:flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background: rgba(0, 0, 42, 0.55);
+    list-style: none;
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+    padding: 0px;
+    border: 1px solid;
+    border-color: white;
+
+}
+.prize-item-id{
+    font-size: 15px;
+    padding-right: 5px;
+}
+.prize-item-amount{
+    font-size: 18px;
+    
+}
+.prize-item.active{
+    background-color: chocolate;
+}
+.prize-item{
+    width: 100%;
+    display: flex;
+    padding-left: 40%;
+    border-radius:  10px;
+}
+.timer-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 20px;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.question-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.question{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    color:black;
+    margin-bottom: 20px;
+}
+.answers{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.answer{
+    width: 50%;
+    text-align: center;
+    padding: 8px;
+    background: white;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    margin: 0 0 2px 0 ;
+}
+.jokers{
+    display:flex;
+    
+}
+.joker{
+    border: 1px solid rgb(78, 31, 249);
+    border-radius: 70%;
+    width: 40px;
+    background: black;
+    padding: 20px;
+}
+
