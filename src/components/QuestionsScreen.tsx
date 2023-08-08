@@ -25,7 +25,7 @@ export const QuestionsScreen = () => {
     const response = await fetch(questionsURL);
     const jsonQuestions = await response.json();
     setQuestions(jsonQuestions.results);
-    setQuestion(await questions[nextRound]?.question)
+    setQuestion(jsonQuestions[nextRound]?.question);
   }, []);
 
   useEffect(() => {
